@@ -1,0 +1,108 @@
+/*Prediseño en PS por ejemplo para obtener dimensiones*/
+*{
+    /*for all*/
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+header {
+    position: relative;
+    margin: 20px auto;
+    width:1000px;
+    height:120px;
+    background:#444444;    
+}
+#logo {
+    position: absolute;
+    top:30px;
+    left:30px;
+    width:200px;
+    height:60px;
+    background:#cccccc;
+}
+.smedia {
+    position: absolute;
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background:#cccccc;
+}
+#icon1{
+    top:40px;
+    right:120px;
+}
+#icon2{
+    top:40px;
+    right:70px;
+}
+#icon3{
+    top:40px;
+    right:20px;
+}
+nav {
+    position: relative;
+    margin: auto;
+    width:1000px;
+    height:50px;  
+}
+.button {
+    float: left;
+    width:196px;
+    height:50px;
+    margin:0px 2px;
+    background: #333333;
+}
+#top {
+    position: relative;
+    margin: 20px auto;
+    width:1000px;
+    height:190px; 
+}
+#top ul {
+    width:1010px;
+    height:190px;
+}
+#top ul li {
+    float:left;
+    width:326px;
+    height:190px;
+    margin-right: 10px;
+    background:#333333;
+}
+section {
+    position: relative;
+    margin: auto;
+    width:1000px;
+    height:450px;
+}
+aside#left{
+	position:absolute;
+	left:0;
+	top:0;
+	width:200px;
+	height:453px;
+	background:#333;
+}	
+article{
+	position:absolute;
+	left:200px;
+	top:0;
+	width:600px;
+	height:453px;
+	background:#666;
+	}	
+aside#right{
+	position:absolute;
+	right:0;
+	top:0;
+	width:200px;
+	height:453px;
+	background:#333;
+}
+footer {
+    position: relative;
+    margin:20px auto;
+    width:1000px;
+    height:70px;
+    background:#888888; 
+}

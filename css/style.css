@@ -1,0 +1,30 @@
+header {
+    width:1000px;
+    height:200px;
+    background:blue;
+    margin:20px;
+    border:5px solid red;
+
+}
+#logotipo {
+    /*id*/
+    width:200px;
+    height:50px;
+    background:green;
+    border: 5px solid black;
+    padding:20px;
+    border-radius:10px;
+}
+.aa{
+    /*class*/
+}
+h1 {
+    background:red;
+    color: aliceblue;
+}
+h2 {
+    background:#aa66ff;	
+}
+h3 {
+	background:rgba(180,0,70,.5);
+}
