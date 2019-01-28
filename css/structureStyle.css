@@ -4,13 +4,28 @@
     margin:0;
     padding:0;
     list-style:none;
+    font-family: sans-serif;
+}
+#chat {
+    position: fixed;
+    width:250px;
+    height:40px;
+    background: darkorchid;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    color:white;
+    text-align: center;
+    line-height:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:20px 20px 0 0;
+    cursor:pointer;
 }
 header {
     position: relative;
     margin: 20px auto;
     width:1000px;
-    height:120px;
-    background:#444444;    
+    height:120px;   
 }
 #logo {
     position: absolute;
@@ -18,7 +33,10 @@ header {
     left:30px;
     width:200px;
     height:60px;
-    background:#cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:50px;
+    text-align: center;
+    line-height:60px;
 }
 .smedia {
     position: absolute;
@@ -26,18 +44,24 @@ header {
     height:40px;
     border-radius: 100%;
     background:#cccccc;
+    text-align: center;
+    line-height: 42px;
+    color:white;
 }
 #icon1{
     top:40px;
     right:120px;
+    background: tomato;
 }
 #icon2{
     top:40px;
     right:70px;
+    background:teal;
 }
 #icon3{
     top:40px;
     right:20px;
+    background: paleturquoise;
 }
 nav {
     position: relative;
@@ -51,6 +75,16 @@ nav {
     height:50px;
     margin:0px 2px;
     background: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align:center;
+    line-height: 48px;
+}
+a .button:hover {
+    background: wheat;
+}
+a .button:active {
+    background: orange;
 }
 #top {
     position: relative;
@@ -67,7 +101,14 @@ nav {
     width:326px;
     height:190px;
     margin-right: 10px;
-    background:#333333;
+    text-align: center;
+}
+#top ul li h1 {
+    font-display: Arial, Helvetica, sans-serif;
+}
+#top ul li p {
+    font-size:14px;
+    margin:10px;
 }
 section {
     position: relative;
@@ -81,16 +122,35 @@ aside#left{
 	top:0;
 	width:200px;
 	height:453px;
-	background:#333;
-}	
+}
+aside#left ul li {
+    background: #aaaaaa;
+    padding: 10px;
+    margin: 2px 10px;
+    list-style:square;
+    list-style-position:inside;    
+}
+aside#left ul li a {
+    text-decoration: none;
+}
 article{
 	position:absolute;
 	left:200px;
 	top:0;
 	width:600px;
 	height:453px;
-	background:#666;
-	}	
+	background:#888888;
+}
+article h1 {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:40px;
+    margin: 20px;
+}
+article p {
+    margin:5px 20px;
+	font-size:14px;
+	text-align:justify;
+}
 aside#right{
 	position:absolute;
 	right:0;
@@ -99,10 +159,31 @@ aside#right{
 	height:453px;
 	background:#333;
 }
+aside#right h1 {
+    width:200px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background: paleturquoise;
+    color:white;
+    margin-bottom:5px;
+}
+aside#right input {
+    padding:10px;
+    margin: 5px;
+    width:155px;
+}
+aside#right input[type="submit"]{
+    margin-top:10px;
+    width:190px;
+	}
 footer {
     position: relative;
     margin:20px auto;
     width:1000px;
     height:70px;
-    background:#888888; 
+    background:#666666; 
+    text-align:center;
+    line-height: 70px;
+    color:white;
 }
